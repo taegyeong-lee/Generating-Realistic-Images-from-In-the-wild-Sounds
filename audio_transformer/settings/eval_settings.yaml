@@ -1,0 +1,44 @@
+mode: 'eval'  # 'eval'
+
+wav:
+  sr: 32000 
+  window_length: 1024
+  hop_length: 640 
+  n_mels: 64
+
+encoder:
+  model: 'audioset'  # 'deit'
+  freeze: No
+  pretrained: Yes
+
+decoder:
+  nhead: 8
+  nhid: 512
+  nlayers: 4
+  dropout: 0.2
+  dim_feedforward: 2048
+  activation: 'gelu'
+
+word_embedding:
+  pretrained: Yes
+  freeze: No 
+
+data:
+  batch_size: 32
+  num_workers: 16
+
+training:
+  label_smoothing: Yes
+  epochs: 1
+  lr: !!float 1e-4
+  clip_grad: 2
+  seed: 20
+
+path:
+  vocabulary: 'pre_models/audio_transformer/words_list.p'
+  encoder: 'pre_models/audio_transformer/audioset_deit.pth'  # 'pretrained_models/deit.pth'
+  word2vec: 'pre_models/audio_transformer/w2v_512.model'
+  eval_model: 'pre_models/audio_transformer/ACTm.pth'
+  hdf5_train_path: 'data/hdf5s/train/train.h5'
+  hdf5_val_path: 'data/hdf5s/val/val.h5'
+  hdf5_test_path: 'data/hdf5s/test/test.h5'
