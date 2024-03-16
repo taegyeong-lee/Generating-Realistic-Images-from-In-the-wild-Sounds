@@ -5,9 +5,9 @@ This repository is the official implementation of [**Generating Realistic Images
 **[Generating Realistic Images from In the wild Sounds](https://arxiv.org/abs/2309.02405)**
 <br/>
 [Taegyeong Lee](https://sites.google.com/view/taegyeonglee/home), 
-[Jeonghun Kang](), 
-[Hyeonyu Kim](), 
-[Taehwan Kim](), 
+Jeonghun Kang, 
+Hyeonyu Kim], 
+Taehwan Kim, 
 <br/>
 
 [![Project Website](https://img.shields.io/badge/Project-Website-orange)](https://etilelab.github.io/lee2023generating)
