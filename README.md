@@ -10,7 +10,7 @@ Hyeonyu Kim],
 Taehwan Kim, 
 <br/>
 
-[![Project Website](https://img.shields.io/badge/Project-Website-orange)](https://etilelab.github.io/lee2023generating)
+[![Project Website](https://img.shields.io/badge/Project-Website-orange)](https://taegyeong-lee.github.io/lee2023generating)
 [![arXiv](https://img.shields.io/badge/arXiv-2212.11565-b31b1b.svg)](https://arxiv.org/abs/2309.02405)
 
 ## Abstract
