@@ -33,6 +33,7 @@ qualitative evaluations on wild audio datasets
 - [01-10-2024] We are in the process of refactoring for code deployment.
 - [02-06-2024] We released pretrained models (ACT, Stable Diffusion, CLIP ..).
 - [02-16-2024] We released code but, it's not yet complete.
+- [08-28-2024] We released Multi-ESC50 dataset.
 
 ## Approach
 ![image](https://github.com/etilelab/Generating-Realistic-Images-from-In-the-wild-Sounds/assets/28443896/a9307826-ade6-48c5-a049-0f6d6ca41c78)
@@ -42,6 +43,7 @@ qualitative evaluations on wild audio datasets
 
 ### 1. Pretrained models download
    You can download pre-trained models from [here](https://drive.google.com/file/d/1Gh2bYrU-H47wnHVRhRs9YTGMUaYAVibr/view?usp=drive_link), such as the Audio Captioning Transformer, Audioclip, and so on.
+   Also You can download Multi-ESC50, https://drive.google.com/file/d/1_dVHcIZ-13ubMgd09-mm8Zktdh6FX9iu/view?usp=drive_link
 
 ### 2. Hyperparameters setting
 You need to modify the following hyperparameters in run.py and other config yaml files. Furthermore, various paths within the Python file and data preprocessing (h5) are required.
