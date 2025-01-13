@@ -6,7 +6,7 @@ This repository is the official implementation of [**Generating Realistic Images
 <br/>
 [Taegyeong Lee](https://sites.google.com/view/taegyeonglee/home), 
 Jeonghun Kang, 
-Hyeonyu Kim], 
+Hyeonyu Kim, 
 Taehwan Kim, 
 <br/>
 
