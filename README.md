@@ -42,9 +42,8 @@ qualitative evaluations on wild audio datasets
  We are in the process of refactoring the code, and some parts of it have been improved, which may differ slightly from the paper.
 
 ### 1. Pretrained models download
-   You can download pre-trained models from [here](https://drive.google.com/file/d/1Gh2bYrU-H47wnHVRhRs9YTGMUaYAVibr/view?usp=drive_link), such as the Audio Captioning Transformer, Audioclip, and so on.
-   Also You can download Multi-ESC50, https://drive.google.com/file/d/1_dVHcIZ-13ubMgd09-mm8Zktdh6FX9iu/view?usp=drive_link
-
+   You can download AudioCLIP, SD v1.4, and the audio captioning model from their official GitHub.
+   
 ### 2. Hyperparameters setting
 You need to modify the following hyperparameters in run.py and other config yaml files. Furthermore, various paths within the Python file and data preprocessing (h5) are required.
 
