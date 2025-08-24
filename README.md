@@ -4,7 +4,7 @@ This repository is the official implementation of [**Generating Realistic Images
 
 **[Generating Realistic Images from In the wild Sounds](https://arxiv.org/abs/2309.02405)**
 <br/>
-[Taegyeong Lee](https://sites.google.com/view/taegyeonglee/home), 
+[Taegyeong Lee](https://taegyeong-lee.github.io), 
 Jeonghun Kang, 
 Hyeonyu Kim, 
 Taehwan Kim, 
@@ -13,7 +13,7 @@ Taehwan Kim,
 [![Project Website](https://img.shields.io/badge/Project-Website-orange)](https://taegyeong-lee.github.io/lee2023generating)
 [![arXiv](https://img.shields.io/badge/arXiv-2212.11565-b31b1b.svg)](https://arxiv.org/abs/2309.02405)
 
-[HuggingFace](https://huggingface.co/Taegyeonglee/Sound2Image)
+[HuggingFace](https://huggingface.co/taegyeonglee/Sound2Image)
 
 ## Abstract
 Representing wild sounds as images is an important but
